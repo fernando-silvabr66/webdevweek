@@ -1,2 +1,2 @@
 # webdevweek
-Primeira Dev Week - Capstone Project Week 1
+1st Dev Week - Capstone Project Week 1
