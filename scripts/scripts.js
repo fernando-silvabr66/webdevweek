@@ -43,7 +43,7 @@ speakerBtn.setAttribute('type', 'button');
 speakerBtn.innerHTML = 'MORE <i class="fa fa-arrow-down"></i>';
 speakerBtn.addEventListener('click', () => {
   document.querySelector('.my-speakers-group').innerHTML = '';
-  for (let i = 0; i < artistes.length; i += 1) {
+  for (let i = 0; i < speakers.length; i += 1) {
     const speaker = document.createElement('article');
     const speakerImg = document.createElement('div');
     const imageDots = document.createElement('img');
@@ -78,7 +78,7 @@ speakerBtn.addEventListener('click', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  for (let i = 0; i <= speakers.length; i += 1) {
+  for (let i = 0; i < 2; i += 1) {
     const speaker = document.createElement('article');
     const speakerImg = document.createElement('div');
     const imageDots = document.createElement('img');
@@ -148,8 +148,6 @@ document.querySelectorAll('.my-nav-link-mobile').forEach((link) => {
     menuButton.style.display = 'block';
   });
 });
-
-
 
 // mobile menu
 const mobMenuButton = document.querySelector('.my-mob-menu-bars');

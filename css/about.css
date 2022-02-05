@@ -189,7 +189,7 @@ body {
 .my-main-logo {
   border: 1px solid #d3d3d3;
   margin-top: 60px;
-  margin-bottom: 100px;  
+  margin-bottom: 100px;
   width: 30%;
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -298,7 +298,7 @@ body {
   border-color: #ec5242;
   width: 35px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .my-partners-logos {

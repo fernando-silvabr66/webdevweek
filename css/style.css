@@ -337,7 +337,7 @@ header {
   border-color: #ec5242;
   width: 35px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .my-partners-logos {
@@ -371,7 +371,7 @@ header {
   width: 100px;
 }
 
-my-button:hover {
+button:hover {
   cursor: pointer;
 }
 
