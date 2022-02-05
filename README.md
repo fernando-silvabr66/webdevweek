@@ -63,9 +63,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Cindy Shin (GUI & Graphic Designer) who is the author of the original design. Additional information can be founded at https://www.behance.net/adagio07.
+- Hat tip to anyone whose code was used as inspiration.
 
 ## 📝 License
 

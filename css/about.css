@@ -1,11 +1,11 @@
 @font-face {
   font-family: cocogoose;
-  src: url(../font/Cocogoose_trial.ttf);
+  src: url(font/Cocogoose_trial.ttf);
 }
 
 @font-face {
   font-family: lato;
-  src: url(../font/Lato-Regular.ttf);
+  src: url(font/Lato-Regular.ttf);
 }
 
 * {
@@ -61,7 +61,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  background-image: url(../images/sao-paulo-city-background.jpg);
+  background-image: url(/images/sao-paulo-city-background.jpg);
   background-size: cover;
 }
 
@@ -90,7 +90,7 @@ body {
 
 /* main section */
 .my-headline {
-  background-image: url(../images/sao-paulo-city-background.jpg);
+  background-image: url(/images/sao-paulo-city-background.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
