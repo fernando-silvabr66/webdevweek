@@ -12,11 +12,13 @@
 
 ## Images
 
-![screenshot](./app-screenshot.jpg)
+![screenshot](app-screenshot.jpg)
+![screenshot](app-screenshot-mobile-1.jpg)
+![screenshot](app-screenshot-mobile-2.jpg)
 
 ## Video
 
-https://www.loom.com/share/31b53550cc1d4161bcee5abc6a1872a8
+- https://www.loom.com/share/7b358634aa824e4cb403c287fe341089
 
   
 
