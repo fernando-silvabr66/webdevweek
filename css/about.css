@@ -93,7 +93,7 @@ body {
   background-image: url(../images/sao-paulo-city-background.jpg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .my-headline-container {
