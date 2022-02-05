@@ -3,37 +3,37 @@ const speakers = [
     name: 'Chris Andreson',
     bio: 'Curator of TED',
     about: 'After a long career in journalism and publishing, Chris Anderson became the curator of the TED Conference in 2002 and has developed it as a platform for identifying and disseminating ideas worth spreading.',
-    picture: '/images/chris-anderson.jpg',
+    picture: 'images/chris-anderson.jpg',
   },
   {
     name: 'Max Hawkins',
     bio: 'Artist and computer scientist',
     about: 'Since 2015, computer programs Max Hawkins wrote have been giving him randomly generated instructions on how to live his life.',
-    picture: '/images/max-hawkins.jpg',
+    picture: 'images/max-hawkins.jpg',
   },
   {
     name: 'Anna Piperal',
     bio: 'E-governance expert',
     about: 'Anna Piperal is a branding expert and digital enthusiast who strives to spread the idea of a "zero-bureaucracy" government ecosystem.',
-    picture: '/images/anna-piperal.jpg',
+    picture: 'images/anna-piperal.jpg',
   },
   {
     name: 'Tom Griffhits',
     bio: 'Psychologist, cognitive scientist',
     about: 'Tom Griffiths uses ideas from computer science to understand how human minds work.',
-    picture: '/images/tom-griffiths.jpg',
+    picture: 'images/tom-griffiths.jpg',
   },
   {
     name: 'Karen Tordjman',
     bio: 'Customer experience pro',
     about: 'Karen Lellouche Tordjman is a global leader on customer experience and a BHI fellow on the future of customer interactions.',
-    picture: '/images/karen-tordjman.jpg',
+    picture: 'images/karen-tordjman.jpg',
   },
   {
     name: 'Yann LeCun',
     bio: 'Computer scientist, AI researcher',
     about: 'Yann LeCun is chief AI scientist at Facebook and Silver Professor at New York University.',
-    picture: '/images/yann-lecun.jpg',
+    picture: 'images/yann-lecun.jpg',
   },
 ];
 
@@ -43,7 +43,7 @@ speakerBtn.setAttribute('type', 'button');
 speakerBtn.innerHTML = 'MORE <i class="fa fa-arrow-down"></i>';
 speakerBtn.addEventListener('click', () => {
   document.querySelector('.my-speakers-group').innerHTML = '';
-  for (let i = 0; i < artistes.length; i += 1) {
+  for (let i = 0; i < speakers.length; i += 1) {
     const speaker = document.createElement('article');
     const speakerImg = document.createElement('div');
     const imageDots = document.createElement('img');
@@ -56,11 +56,11 @@ speakerBtn.addEventListener('click', () => {
     speaker.classList.add('my-speaker');
     speakerImg.classList.add('my-speaker-img');
     imageDots.classList.add('my-speaker-dots');
-    imageDots.setAttribute('src', 'img/image-dots.svg');
+    imageDots.setAttribute('src', 'images/image-dots.png');
     imageDots.setAttribute('alt', 'dots');
     speakerPicture.classList.add('my-speaker-picture');
     speakerPicture.setAttribute('src', speakers[i].picture);
-    speakerPicture.setAttribute('alt', 'speaker-picture');
+    speakerPicture.setAttribute('alt', 'my-speaker-picture');
     speakerInfo.classList.add('my-speaker-info');
     speakerName.classList.add('my-speaker-name');
     speakerName.textContent = speakers[i].name;
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     speaker.classList.add('my-speaker');
     speakerImg.classList.add('my-speaker-img');
     imageDots.classList.add('my-speaker-dots');
-    imageDots.setAttribute('src', '/images/image-dots.svg');
+    imageDots.setAttribute('src', 'images/image-dots.png');
     imageDots.setAttribute('alt', 'dots');
     speakerPicture.classList.add('my-speaker-picture');
     speakerPicture.setAttribute('src', speakers[i].picture);
@@ -148,8 +148,6 @@ document.querySelectorAll('.my-nav-link-mobile').forEach((link) => {
     menuButton.style.display = 'block';
   });
 });
-
-
 
 // mobile menu
 const mobMenuButton = document.querySelector('.my-mob-menu-bars');

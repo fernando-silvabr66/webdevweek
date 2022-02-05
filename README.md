@@ -5,12 +5,21 @@
 
 
 > Module 1, Week 5 - 1st Capstone Project
-> Continuing work for Microverse Program - Week 5
+> Continuing work for Microverse Program - Capstone Project for Module 1 on Microverse Program - Week 5
 
 
-![screenshot](./app_screenshot.png) <!--- Place a screenshot of my project here -->
+# Images & Video
 
-Capstone Project for Module 1 on Microverse Program.
+## Images
+
+![screenshot](app-screenshot.jpg)
+![screenshot](app-screenshot-mobile-1.jpg)
+![screenshot](app-screenshot-mobile-2.jpg)
+
+## Video
+
+- https://www.loom.com/share/7b358634aa824e4cb403c287fe341089
+
   
 
 ## Built With
@@ -39,7 +48,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Github page for this project
 
-- https://fernando-silvabr66.github.io/MyPortfolio-W3/  <!--- Review this line whrn it´s the apropriate moment -->
+- https://fernando-silvabr66.github.io/webdevweek/
 
 
 ## Authors
@@ -56,9 +65,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to Cindy Shin (GUI & Graphic Designer) who is the author of the original design. Additional information can be founded at https://www.behance.net/adagio07.
+- Hat tip to anyone whose code was used as inspiration.
 
 ## 📝 License
 

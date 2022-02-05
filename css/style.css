@@ -1,11 +1,11 @@
 @font-face {
   font-family: cocogoose;
-  src: url(../font/Cocogoose_trial.ttf);
+  src: url(font/Cocogoose_trial.ttf);
 }
 
 @font-face {
   font-family: lato;
-  src: url(../font/Lato-Regular.ttf);
+  src: url(font/Lato-Regular.ttf);
 }
 
 * {
@@ -62,7 +62,7 @@ header {
   position: fixed;
   top: 0;
   bottom: 0;
-  background-image: url(../images/sao-paulo-city-bp-background.jpg);
+  background-image: url(/images/sao-paulo-city-background.jpg);
   background-size: cover;
 }
 
@@ -91,7 +91,7 @@ header {
 
 /* main section */
 .my-headline {
-  background-image: url(../images/sao-paulo-city-background.jpg);
+  background-image: url(/images/sao-paulo-city-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -112,7 +112,7 @@ header {
 }
 
 .my-headline-header-container {
-  background-image: url(../images/sao-paulo-city-background.jpg);
+  background-image: url(/images/sao-paulo-city-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   color: transparent;
@@ -157,7 +157,7 @@ header {
 /* program section */
 
 .my-main-section {
-  background-image: url(../images/back-pattern-black.png);
+  background-image: url(/images/back-pattern-black.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -337,7 +337,7 @@ header {
   border-color: #ec5242;
   width: 35px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 
 .my-partners-logos {
@@ -371,7 +371,7 @@ header {
   width: 100px;
 }
 
-my-button:hover {
+button:hover {
   cursor: pointer;
 }
 
