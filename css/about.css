@@ -1,11 +1,11 @@
 @font-face {
   font-family: cocogoose;
-  src: url(font/Cocogoose_trial.ttf);
+  src: url(../font/Cocogoose_trial.ttf);
 }
 
 @font-face {
   font-family: lato;
-  src: url(font/Lato-Regular.ttf);
+  src: url(../font/Lato-Regular.ttf);
 }
 
 * {

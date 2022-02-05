@@ -5,12 +5,19 @@
 
 
 > Module 1, Week 5 - 1st Capstone Project
-> Continuing work for Microverse Program - Week 5
+> Continuing work for Microverse Program - Capstone Project for Module 1 on Microverse Program - Week 5
 
 
-![screenshot](./app-screenshot.jpg) <!--- Place a screenshot of my project here -->
+# Images & Video
 
-Capstone Project for Module 1 on Microverse Program.
+## Images
+
+![screenshot](./app-screenshot.jpg)
+
+## Video
+
+https://www.loom.com/share/31b53550cc1d4161bcee5abc6a1872a8
+
   
 
 ## Built With
@@ -39,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Github page for this project
 
-- https://fernando-silvabr66.github.io/MyPortfolio-W3/  <!--- Review this line whrn it´s the apropriate moment -->
+- https://fernando-silvabr66.github.io/webdevweek/
 
 
 ## Authors
