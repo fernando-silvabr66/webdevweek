@@ -8,7 +8,7 @@
 > Continuing work for Microverse Program - Week 5
 
 
-![screenshot](./app-screenshot.png) <!--- Place a screenshot of my project here -->
+![screenshot](./app-screenshot.jpg) <!--- Place a screenshot of my project here -->
 
 Capstone Project for Module 1 on Microverse Program.
   
