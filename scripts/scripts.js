@@ -56,11 +56,11 @@ speakerBtn.addEventListener('click', () => {
     speaker.classList.add('my-speaker');
     speakerImg.classList.add('my-speaker-img');
     imageDots.classList.add('my-speaker-dots');
-    imageDots.setAttribute('src', 'img/image-dots.svg');
+    imageDots.setAttribute('src', '/images/image-dots.png');
     imageDots.setAttribute('alt', 'dots');
     speakerPicture.classList.add('my-speaker-picture');
     speakerPicture.setAttribute('src', speakers[i].picture);
-    speakerPicture.setAttribute('alt', 'speaker-picture');
+    speakerPicture.setAttribute('alt', 'my-speaker-picture');
     speakerInfo.classList.add('my-speaker-info');
     speakerName.classList.add('my-speaker-name');
     speakerName.textContent = speakers[i].name;
@@ -78,7 +78,7 @@ speakerBtn.addEventListener('click', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  for (let i = 0; i < 2; i += 1) {
+  for (let i = 0; i <= speakers.length; i += 1) {
     const speaker = document.createElement('article');
     const speakerImg = document.createElement('div');
     const imageDots = document.createElement('img');
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     speaker.classList.add('my-speaker');
     speakerImg.classList.add('my-speaker-img');
     imageDots.classList.add('my-speaker-dots');
-    imageDots.setAttribute('src', '/images/image-dots.svg');
+    imageDots.setAttribute('src', '/images/image-dots.png');
     imageDots.setAttribute('alt', 'dots');
     speakerPicture.classList.add('my-speaker-picture');
     speakerPicture.setAttribute('src', speakers[i].picture);
